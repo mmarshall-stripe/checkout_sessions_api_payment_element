@@ -15,7 +15,7 @@ const publishableKey = 'pk_test_*****';
 const App = () => {
   const stripe = loadStripe(publishableKey);
   const fetchClientSecret = () => {
-    // This is normally where a request to LBG server will be made to create the checkout session via API and return the client secret
+    // This is normally where a request to a server will be made to create the checkout session via API and return the client secret
     return clientSecret
   };
 
